@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Fashion & Furniture Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-blue-50 font-sans leading-normal tracking-normal">
+    <!-- Header -->
+    <header class="bg-yellow-400 shadow-md h-24 flex items-center justify-center">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <h1 class="text-2xl font-bold text-gray-800">Fashion & Furniture Design</h1>
+            <img src="images/logo-png(1).png" alt="Logo" class="h-24 w-22">
+            <b><img src="./images/heart.png" alt="" width="20px"></b>
+            <nav class="space-x-4">
+                <a href="index.html" class="text-gray-600 hover:text-gray-800">Home</a>
+                <a href="about.html" class="text-gray-600 hover:text-gray-800">About</a>
+                <a href="contact.html" class="text-gray-600 hover:text-gray-800">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Our Products</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white shadow-md rounded-md overflow-hidden">
+                    <div class="relative">
+                        <div class="relative overflow-hidden h-60">
+                            <div class="flex transition-transform duration-500 ease-in-out" id="fashion-carousel" style="transform: translateX(0%);">
+                                <img src="images/bed2.jpeg" alt="Fashion 1" class="w-full h-full object-cover flex-shrink-0">
+                                <img src="images/bed.jpeg" alt="Fashion 2" class="w-full h-full object-cover flex-shrink-0">
+                                <img src="images/bd.jpeg" alt="Fashion 3" class="w-full h-full object-cover flex-shrink-0">
+                            </div>
+                        </div>
+                        <!-- Carousel Controls -->
+                        <button onclick="prevImage('fashion-carousel')" class="absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-800 text-white px-2 py-1 rounded">‹</button>
+                        <button onclick="nextImage('fashion-carousel')" class="absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-800 text-white px-2 py-1 rounded">›</button>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Fashion Designs</h3>
+                        <p class="text-gray-600">Explore our latest collections in contemporary fashion.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-md rounded-md overflow-hidden">
+                    <img src="images/chester.jpeg" alt="Furniture" class="w-full h-60 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Furniture Creations</h3>
+                        <p class="text-gray-600">Elegant and modern furniture tailored for your spaces.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-md rounded-md overflow-hidden">
+                    <img src="images/recliner.jpg" alt="Custom Designs" class="w-full h-60 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Custom Designs</h3>
+                        <p class="text-gray-600">Collaborate with us to bring your vision to reality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mx-auto px-4">
+        <h3 class="text-center text-3xl font-bold mb-8">TRENDY AFFORDABLE PRODUCTS</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./images/sf.png" alt="Best Sofa" class="w-full h-auto">
+                <div class="p-4">
+                    <h3 class="text-center text-lg font-semibold">Best Sofa</h3>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./images/c3.png" alt="Elegant Designing" class="w-full h-auto">
+                <div class="p-4">
+                    <h3 class="text-center text-lg font-semibold">Elegant Designing</h3>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./images/card3.png" alt="New Chair" class="w-full h-auto">
+                <div class="p-4">
+                    <h3 class="text-center text-lg font-semibold">New Chair</h3>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./images/card4.png" alt="Modern Chair" class="w-full h-auto">
+                <div class="p-4">
+                    <h3 class="text-center text-lg font-semibold">Modern Chair</h3>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./images/card6.png" alt="Sofa Chair" class="w-full h-auto">
+                <div class="p-4">
+                    <h3 class="text-center text-lg font-semibold">Sofa Chair</h3>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./images/card1.png" alt="Table Chair" class="w-full h-auto">
+                <div class="p-4">
+                    <h3 class="text-center text-lg font-semibold">Table Chair</h3>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./images/card8.png" alt="Hanging Chair" class="w-full h-auto">
+                <div class="p-4">
+                    <h3 class="text-center text-lg font-semibold">Hanging Chair</h3>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="./images/work desk.png" alt="Work Desk" class="w-full h-auto">
+                <div class="p-4">
+                    <h3 class="text-center text-lg font-semibold">Work Desk</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+       let currentIndex = 0;
+
+function nextImage() {
+    const carousel = document.getElementById('fashion-carousel');
+    const totalSlides = carousel.children.length;
+    currentIndex = (currentIndex + 1) % totalSlides; 
+    updateCarousel(carousel);
+}
+
+function prevImage() {
+    const carousel = document.getElementById('fashion-carousel');
+    const totalSlides = carousel.children.length;
+    currentIndex = (currentIndex - 1 + totalSlides) % totalSlides; 
+    updateCarousel(carousel);
+}
+
+function updateCarousel(carousel) {
+    carousel.style.transform = `translateX(${-currentIndex * 100}%)`; // Adjust position based on current index
+}
+
+// Initialize the carousel by showing the first image
+document.addEventListener('DOMContentLoaded', () => {
+    const carousel = document.getElementById('fashion-carousel');
+    updateCarousel(carousel); 
+});
+    </script>
+</body>
+</html>
